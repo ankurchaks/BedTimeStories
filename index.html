@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Code skeleton-->
+    <!--https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--https://www.bootstrapcdn.com/bootswatch/-->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-NkI/Nlr1DZ5rUXWWdnuZb97FQRgCCcwC66DC+HUCY0oVx6BgBHUfPcwL1vwp93JZ" crossorigin="anonymous">
+    <title>Bed Time Stories</title>
+
+    <style>
+        .form-group{
+            width:300px;
+        }
+        .myimage{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .container{
+          width:40%
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Bed Time Stories!</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Select a story</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <!--
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>-->
+          <div class="form-group" id="Selectstory">
+            <select class="custom-select" id= "combobox1">
+              <option selected="">Open this to select a story</option>
+              <option value="1">The fox and the crow</option>
+              <option value="2">The lion and the hare</option>
+              <option value="3">The monkey and the bell</option>
+              <option value="4">The Rabbit And The Totoise</option>
+              <option value="5">The Wise Elephant</option>
+              <option value="6">The Monkey's Heart</option>
+              <option value="7">The Talkative Turtle</option>
+              <option value="8">The Naughty Monkey</option>
+              <option value="9">The Cat's Justice</option>
+              <option value="10">The Stupid Donkey</option>
+            </select>
+          </div>
+          <!--
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>-->
+        </div>
+      </nav>
+
+
+      <div class="jumbotron">
+        <h1 id='storyTitle'class="display-3">Story Time</h1>
+        <div class="myimage">
+        <img id ='storyImage' class="img-fluid" height=100px src="">
+        </div>
+
+        <hr class="my-4">
+        <p id="content" class="lead">Select the story
+        </p>
+
+
+
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src='index.js'></script>
+
+
+</body>
+</html>
