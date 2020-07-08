@@ -65,8 +65,13 @@
           }
           else if (x=='12') {
             document.getElementById('storyTitle').textContent='The Cruel Snake';
-            document.getElementById('storyImage').src="images/image11.jpg";
+            document.getElementById('storyImage').src="images/image12.jpg";
             document.getElementById('content').innerHTML="In a forest there lived a crow on a tree. Right below the tree lived a snake, who always ate the crow's eggs. The crow was very upset because of this. She decided to re-locate her nest on the highest branch of the tree, thinking that the snake will never come there, as he feared the kite who might see him and eat him.<br><br>Now the crow planned a trick to get rid of the snake. She went to the pond where the queen was having her bath. She made a lot of noise to draw the queen\'s attention. She then picked the queen\'s necklace and started flying in the sky. The queen ordered her soldiers to follow the crow. The crow now threw the necklace right inside the hole where the snake lived. The soldiers, in order to take out the necklace, killed the snake.<br><br>Thus, the crow got rid of the snake, and lived a happy and a peaceful life thereafter."
+          } 
+          else if (x=='13') {
+            document.getElementById('storyTitle').textContent='The Friend\'s Advice';
+            document.getElementById('storyImage').src="images/image13.jpg";
+            document.getElementById('content').innerHTML="There lived a donkey who used to work with a washerman. He was ill treated and malnourished. Every night he was left out in the open so that he could eat the grass. One day he met a fox, who told him about a garden filled with cucumbers. He asked the donkey to accompany him tere and have a feast. The donkey agreed.<br><br>One night while they were feasting in the garden, the donkey has a whim to sing out loudly. Inspite of the fox\'s several appeals no to do so, still he started singing loudly. On hearing the donkey\'s bray, he farmers rushed towards the field. Seeing the farmers the clever fox and theesid donkey, who was busy singing, faced thee farmer\'s thrashing.<br><br>After the farmers left, the fox rushed to meet the donkey who was now tied to a heavy stone around his neck. The fox said, \"So, you got the prize for singing. I wish you had paid heed to my advice.\""
           } else {
             alert('Invalid Selection');
           }
