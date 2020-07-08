@@ -62,6 +62,11 @@
             document.getElementById('storyTitle').textContent='The Strength In Unity';
             document.getElementById('storyImage').src="images/image11.jpg";
             document.getElementById('content').innerHTML="In a forest there lived a ferocious python. Whenever he came out of his hole, he ate all the animals who came in his way.<br><br>Once, all the animals got together and decided to get rid of the python. Among them was a mongoose, who was very clever. He went to his friend, the queen ant and told her the entire story. The queen agreed to help him.<br><br>As planned the mongoose prooked the python to come out of his hole. The python came out of the hole boiling with anger and started chasing the mongoose. The mongoose forced the python to move through the sharp rocks so that his flesh got cut and was filled with wounds and bruises. Seeing this, the queen ant, along with her army, attacked the python. The injured python failed to defend himself and soon died.<br><br>As said, a small creature like an ant when decides to get together can kill a ferocious creature like python."
+          }
+          else if (x=='12') {
+            document.getElementById('storyTitle').textContent='The Cruel Snake';
+            document.getElementById('storyImage').src="images/image11.jpg";
+            document.getElementById('content').innerHTML="In a forest there lived a crow on a tree. Right below the tree lived a snake, who always ate the crow's eggs. The crow was very upset because of this. She decided to re-locate her nest on the highest branch of the tree, thinking that the snake will never come there, as he feared the kite who might see him and eat him.<br><br>Now the crow planned a trick to get rid of the snake. She went to the pond where the queen was having her bath. She made a lot of noise to draw the queen\'s attention. She then picked the queen\'s necklace and started flying in the sky. The queen ordered her soldiers to follow the crow. The crow now threw the necklace right inside the hole where the snake lived. The soldiers, in order to take out the necklace, killed the snake.<br><br>Thus, the crow got rid of the snake, and lived a happy and a peaceful life thereafter."
           } else {
             alert('Invalid Selection');
           }
