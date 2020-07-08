@@ -7,7 +7,7 @@
         x=document.getElementById("combobox1").value;
       
 
-          //alert(x)
+          alert(x)
           if (x=='1'){
               document.getElementById('storyTitle').textContent='The Fox And The Crow';
               document.getElementById('storyImage').src="images/image1.jpg";
