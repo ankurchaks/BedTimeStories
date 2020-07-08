@@ -7,7 +7,7 @@
         x=document.getElementById("combobox1").value;
       
 
-          alert(x);
+          //alert(x);
           if (x=='1'){
               document.getElementById('storyTitle').textContent='The Fox And The Crow';
               document.getElementById('storyImage').src="images/image1.jpg";
@@ -71,7 +71,12 @@
           else if (x=='13') {
             document.getElementById('storyTitle').textContent='The Friend\'s Advice';
             document.getElementById('storyImage').src="images/image13.jpg";
-            document.getElementById('content').innerHTML="There lived a donkey who used to work with a washerman. He was ill treated and malnourished. Every night he was left out in the open so that he could eat the grass. One day he met a fox, who told him about a garden filled with cucumbers. He asked the donkey to accompany him tere and have a feast. The donkey agreed.<br><br>One night while they were feasting in the garden, the donkey has a whim to sing out loudly. Inspite of the fox\'s several appeals no to do so, still he started singing loudly. On hearing the donkey\'s bray, he farmers rushed towards the field. Seeing the farmers the clever fox and theesid donkey, who was busy singing, faced thee farmer\'s thrashing.<br><br>After the farmers left, the fox rushed to meet the donkey who was now tied to a heavy stone around his neck. The fox said, \"So, you got the prize for singing. I wish you had paid heed to my advice.\""
+            document.getElementById('content').innerHTML="There lived a donkey who used to work with a washerman. He was ill treated and malnourished. Every night he was left out in the open so that he could eat the grass. One day he met a fox, who told him about a garden filled with cucumbers. He asked the donkey to accompany him tere and have a feast. The donkey agreed.<br><br>One night while they were feasting in the garden, the donkey has a whim to sing out loudly. Inspite of the fox\'s several appeals no to do so, still he started singing loudly. On hearing the donkey\'s bray, he farmers rushed towards the field. Seeing the farmers the clever fox and theesid donkey, who was busy singing, faced thee farmer\'s thrashing.<br><br>After the farmers left, the fox rushed to meet the donkey who was now tied to a heavy stone around his neck. The fox said, \"So, you got the prize for singing. I wish you had paid heed to my advice\"."
+          }
+          else if (x=='14') {
+            document.getElementById('storyTitle').textContent='Three Fishes In a Pond';
+            document.getElementById('storyImage').src="images/image14.jpg";
+            document.getElementById('content').innerHTML="There lived three fishes in a pond , along with several other fishes. The wise aamong em  nTitu,  believedddd in taking preccation before the trouble comes. Tilu, on the other hand, believed in facing the trouble. Tinu believed that whatever has to happen will happen and nothing can prevent it.<br><br>One day Titu heard two fisherman talking about their plan to catch fish in the pond. On hearing this, Titu decided to leave the pond as soon as possible and asked both, Tilu and Tinu to accompany her. Both refused. Anyhow, Titu left for a safer place. Next dayy when thee fisherman came with their net, Tilu quickly thought of a plan to save her life and hid herself in the deepest area in the pond. Tinu remained indefferent to the entire situation. As a result Tinu, along with other fishes, got caught in the net and soon died.<br><br>It was Tinu\'s foolishness that resulted in her death and Titu\'s sensibillity and Tilu\'s alertness that saved their life."
           } else {
             alert('Invalid Selection');
           }
